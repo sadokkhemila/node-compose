@@ -5,7 +5,6 @@ USER app
 
 WORKDIR /app
 COPY package*.json ./
-RUN npm update
 COPY . . 
 
 EXPOSE 3001 
