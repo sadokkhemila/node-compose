@@ -5,7 +5,7 @@ USER app
 
 WORKDIR /app
 COPY package*.json ./
-RUN npm -g install npm@7.19.1
+RUN npm update 
 COPY . .
 
 EXPOSE 3000 
